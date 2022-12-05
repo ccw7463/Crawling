@@ -14,7 +14,7 @@ browser = webdriver.Chrome("chromedriver")
 browser.get(url)
 
 # bs4
-res = requests.get(url)
+# res = requests.get(url)
 soup = BeautifulSoup(browser.page_source,'lxml')
 
 # 같이 사용하기
