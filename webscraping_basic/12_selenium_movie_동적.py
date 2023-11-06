@@ -18,7 +18,7 @@ browser.get(url)
 
 # 2. 스크롤 내리기 
 '''
-browser.execute_script("window.scrollTo(0,내릴크기)")
+browser.execute_script("window.scrollTo(0,내릴크기)")0
     - 1. 적힌 숫자만큼 스크롤 내리기
     - 2. document.body.scrollHeight : 창 화면크기 만큼 
 '''
